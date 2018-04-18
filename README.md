@@ -7,7 +7,6 @@ spring cloud 综合学习示例
      4. Ribbon 客户端负载均衡服务调用
      5. Feign 声明式客户端服务调用
      6. hystrix 断路器
-     7. hystrix-dashboard 服务监控中心
-     8. sleuth 服务跟踪 结合Twitter的Zipkin
-     9. Bus 消息总线 用于配置中心刷新
-     10. swagger2 Restful API接口生成文档
+     7. sleuth 服务跟踪 结合Twitter的Zipkin
+     8. Bus 消息总线 用于配置中心刷新
+     9. swagger2 Restful API接口生成文档
