@@ -8,8 +8,10 @@ import org.springframework.context.annotation.ComponentScans;
 
 @EnableEurekaClient
 @EnableFeignClients({"com.study.cloud.service"})
-@SpringBootApplication
-@ComponentScan("com.study.cloud.repository")
+@SpringBootApplication(scanBasePackages ={
+		"com.study.cloud.repository",
+		"com.study.cloud.fallback"
+		})
 public class AresServiceProviderApplication {
 
 	public static void main(String[] args) {
