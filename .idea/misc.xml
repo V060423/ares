@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/ares-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/ares-service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/ares-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/ares-register-center/pom.xml" />
+        <option value="$PROJECT_DIR$/ares-repository/pom.xml" />
       </list>
     </option>
   </component>

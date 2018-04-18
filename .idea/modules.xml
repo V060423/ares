@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ares.iml" filepath="$PROJECT_DIR$/.idea/ares.iml" />
       <module fileurl="file://$PROJECT_DIR$/ares-domain/ares-domain.iml" filepath="$PROJECT_DIR$/ares-domain/ares-domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ares-register-center/ares-register-center/ares-register-center.iml" filepath="$PROJECT_DIR$/ares-register-center/ares-register-center/ares-register-center.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ares-repository/ares-repository/ares-repository.iml" filepath="$PROJECT_DIR$/ares-repository/ares-repository/ares-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ares-register-center/ares-register-center.iml" filepath="$PROJECT_DIR$/ares-register-center/ares-register-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ares-repository/ares-repository.iml" filepath="$PROJECT_DIR$/ares-repository/ares-repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/ares-service-api/ares-service-api.iml" filepath="$PROJECT_DIR$/ares-service-api/ares-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/ares-service-consumer/ares-service-consumer.iml" filepath="$PROJECT_DIR$/ares-service-consumer/ares-service-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ares-service-provider/ares-service-provider.iml" filepath="$PROJECT_DIR$/ares-service-provider/ares-service-provider.iml" />
