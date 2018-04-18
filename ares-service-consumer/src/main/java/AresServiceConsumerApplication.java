@@ -5,7 +5,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableEurekaClient
 @EnableFeignClients({"com.study.cloud.service"})
-@SpringBootApplication(scanBasePackages = {"com.study.cloud.fallback"})
+@SpringBootApplication(scanBasePackages = {
+		"com.study.cloud.web",
+		"com.study.cloud.fallback"
+})
 public class AresServiceConsumerApplication {
 
 	public static void main(String[] args) {

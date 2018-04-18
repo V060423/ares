@@ -12,14 +12,14 @@ import java.util.Map;
  * @Description TODO
  * @Date 2018/4/18 10:59
  */
-@FeignClient(name="provider-user-service",fallback =UserServiceFallback.class)
+@FeignClient(name="user-component",fallback =UserServiceFallback.class)
 public interface UserService {
-    @GetMapping("/user/{id}")
+    @GetMapping("/user/me/{id}")
     User findById(@PathVariable("id") Long id);
 
-    @GetMapping("/user/all")
+    @GetMapping("/user/me/all")
     User find(@RequestParam Map<String,Object> params);
 
-    @PostMapping("/user/add")
+    @PostMapping("/user/me/add")
     void add(@RequestBody User user);
  }
