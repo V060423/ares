@@ -1,7 +1,7 @@
 # ares
 spring cloud 综合学习示例
 # 主要学习Spring Cloud的组件
-     1. Eureka 服务注册与发现中心
+     1.Eureka 服务注册与发现中心
      2.Config 分布式配置中心
      3.Zuul 网关-动态路由、动态过滤、鉴权、服务的降级、限流
      4.Ribbon 客户端负载均衡服务调用
