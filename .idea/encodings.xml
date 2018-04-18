@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/ares-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ares-register-center/ares-register-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ares-repository/ares-repository" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ares-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ares-service-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ares-service-provider" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

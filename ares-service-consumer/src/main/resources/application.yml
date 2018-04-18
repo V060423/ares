@@ -1,0 +1,12 @@
+server:
+  port: 8021
+spring:
+  application:
+    name: user-consumer-service
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: wangbowen:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
