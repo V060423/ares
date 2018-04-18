@@ -10,4 +10,4 @@ spring cloud 综合学习示例
      7.hystrix-dashboard 服务监控中心
      8.sleuth 服务跟踪 结合Twitter的Zipkin
      9.Bus 消息总线 用于配置中心刷新
-     9.swagger2 Restful API接口生成文档
+     10.swagger2 Restful API接口生成文档
