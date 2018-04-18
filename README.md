@@ -14,7 +14,7 @@ spring-cloud 微服务组件demo
    <td>ares-service-provider</td>  <td> 服务提供者</td> <td>7071</td>
 </tr>
 <tr>
-  <td>ares-service-consumertd> <td>服务消费者</td> <td>7072</td>
+  <td>ares-service-consumertd</td> <td>服务消费者</td> <td>7072</td>
 </tr>
 </tbody></table>
 
