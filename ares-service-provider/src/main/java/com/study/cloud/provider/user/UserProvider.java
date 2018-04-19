@@ -1,4 +1,4 @@
-package com.study.cloud.provider;
+package com.study.cloud.provider.user;
 
 import com.study.cloud.domain.User;
 import com.study.cloud.repository.UserRepository;
@@ -14,7 +14,7 @@ import java.util.Optional;
 
 /**
  * @author wangbowen
- * @Description TODO
+ * @Description 服务提供者
  * @Date 2018/4/18 11:08
  */
 @RestController
