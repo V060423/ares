@@ -6,10 +6,9 @@ import com.study.cloud.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Map;
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -24,12 +23,13 @@ public class UserProvider implements UserService {
     @Override
     public User findById(@PathVariable Long id) {
         Optional<User> option = userRepository.findById(id);
-        return option.get();
+        User user1 = option.get();
+        return user1;
     }
 
     @Override
-    public User find(@RequestParam  Map<String, Object> params) {
-        return null;
+    public  List<User> find(){
+       return userRepository.findAll();
     }
 
     @Override

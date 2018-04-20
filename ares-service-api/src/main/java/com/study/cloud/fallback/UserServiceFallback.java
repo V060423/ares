@@ -4,6 +4,7 @@ import com.study.cloud.domain.User;
 import com.study.cloud.service.UserService;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -19,7 +20,7 @@ public class UserServiceFallback implements UserService {
     }
 
     @Override
-    public User find(Map<String, Object> params) {
+    public List<User> find() {
         return null;
     }
 

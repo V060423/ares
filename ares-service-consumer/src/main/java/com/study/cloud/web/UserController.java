@@ -3,9 +3,9 @@ package com.study.cloud.web;
 import com.study.cloud.domain.User;
 import com.study.cloud.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 
 /**
@@ -21,5 +21,15 @@ public class UserController {
     @GetMapping("/user/{id}")
     public User find(@PathVariable("id") Long  id){
         return userService.findById(id);
+    }
+
+    @GetMapping("/user/all")
+    public List<User> findAll(){
+        return  userService.find();
+    }
+
+    @PostMapping("/user/add")
+    public void  add(@RequestBody User user){
+        userService.add(user);
     }
 }

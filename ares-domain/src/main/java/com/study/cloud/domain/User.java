@@ -9,17 +9,13 @@ import java.math.BigDecimal;
  * @Date 2018/4/18 10:51
  */
 @Entity
+@Table(name = "user")
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    @Column
-    private String username;
-    @Column
+    private String userName;
     private String name;
-    @Column
     private Integer age;
-    @Column
     private BigDecimal balance;
 
     public Long getId() {
@@ -30,12 +26,12 @@ public class User {
         this.id = id;
     }
 
-    public String getUsername() {
-        return this.username;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getName() {

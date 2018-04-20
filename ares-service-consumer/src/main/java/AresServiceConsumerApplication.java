@@ -3,13 +3,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.context.annotation.ComponentScan;
 
-@EnableDiscoveryClient
+@EnableEurekaClient
 @EnableFeignClients({"com.study.cloud.service"})
-@SpringBootApplication(scanBasePackages = {
+@ComponentScan(value ={
 		"com.study.cloud.web",
-		"com.study.cloud.fallback"
-})
+		"com.study.cloud.fallback"})
+@SpringBootApplication
 public class AresServiceConsumerApplication {
 
 	public static void main(String[] args) {
