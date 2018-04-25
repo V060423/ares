@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gateway-zuul # 应用名
+server:
+  port: 8768 #Zuul Server的端口号
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
