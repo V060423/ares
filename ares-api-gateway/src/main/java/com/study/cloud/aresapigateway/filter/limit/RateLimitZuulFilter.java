@@ -1,4 +1,4 @@
-package com.study.cloud.aresapigateway.filter;
+package com.study.cloud.aresapigateway.filter.limit;
 
 import com.google.common.collect.Maps;
 import com.google.common.util.concurrent.RateLimiter;
